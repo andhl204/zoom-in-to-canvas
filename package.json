@@ -1,0 +1,32 @@
+{
+  "name": "zoom-in-to-canvas",
+  "private": false,
+  "version": "1.1.4",
+  "type": "module",
+  "main": "dist/zoom-in-to-canvas.umd.cjs",
+  "module": "dist/zoom-in-to-canvas.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/zoom-in-to-canvas.js",
+      "require": "./dist/zoom-in-to-canvas.umd.cjs"
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.3",
+    "terser": "^5.16.3",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vite-plugin-dts": "^2.0.0-beta.0"
+  },
+  "homepage": "https://github.com/andhl204/zoom-in-to-canvas"
+}
