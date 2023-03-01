@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "tsc && vite build"
+    "build": "vite build"
   },
   "files": [
     "dist"
